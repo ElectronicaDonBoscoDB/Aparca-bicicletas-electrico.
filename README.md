@@ -10,3 +10,8 @@ Una vez que la tarjeta le da acceso se encenderá unas luces leds de color blanc
 
 
  Para la parte de electrónica hemos utilizado Arduino Mega ya que en nuestro proyecto necesitábamos muchos dines digitales y el Arduino Mega era el que mejor se adaptaba para poder conectar todo nuestros componentes electrónicos ya que es el cerebro de este proyecto, en el Arduino hemos conectado el sensor RFID (lector de tarjetas), las luces leds, un buzzer (un pequeño altavoz), una pantalla lcd.
+# Pantalla LCD
+![pantalla lcd](https://i.ibb.co/7V59yFr/mm.png)
+
+
+Hemos utilizado una pantalla de 2,8 pulgadas que esta programada mediante Arduino para que en ella muestre un mensaje al pasar la tarjeta si es errónea saldrá un mensaje "Tarjeta incorrecta" y si la tarjeta es correcta se visualizara en la pantalla "cierre la puerta después de entrar ".
