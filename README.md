@@ -22,3 +22,7 @@ Se a utilizado una pantalla de 2,8 pulgadas que esta programada mediante Arduino
 ![cerraduras](https://i.ibb.co/Cz8R4JH/mm.png)
 
 En el proyecto tenemos dos cerraduras que tienen un pistón cada uno que se alimentan a 12v y lo que hemos echo a sido conectarlos a Arduino mediante un Mosfet BJT para poder programarlo y que se excite cuando el sensor de tarjetas haya dado acceso a la persona para poder entrar al aparca bicicletas.
+
+# Sensor RFDI
+
+https://i.ibb.co/JBGqwcv/kkkkk.jpg
