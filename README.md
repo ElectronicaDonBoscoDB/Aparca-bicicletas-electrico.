@@ -8,7 +8,7 @@ Una vez que la tarjeta le da acceso se encenderá unas luces leds de color blanc
 # Arduino Mega
 ![mega](https://i.ibb.co/P6rdfmR/arduino-mega-2560.jpg)
 
-Para poder programar en Arduino tienes que descargarte su propio programa para poder programarlo yhacer lo que tu quieras    https://www.arduino.cc/en/software .
+Para poder programar en Arduino tienes que descargarte su propio programa para poder programar y hacer lo que tu quieras    https://www.arduino.cc/en/software .
 
 
  Para la parte de electrónica se a utilizado Arduino Mega ya que en el proyecto necesitábamos muchos pines digitales y el Arduino Mega era el que mejor se adaptaba para poder conectar todo los componentes electrónicos ya que es el cerebro de este proyecto, en el Arduino se a conectado el sensor RFID (lector de tarjetas), las luces leds, un buzzer (un pequeño altavoz), una pantalla lcd.
