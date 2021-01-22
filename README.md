@@ -23,6 +23,16 @@ Se a utilizado una pantalla de 2,8 pulgadas que esta programada mediante Arduino
 
 En el proyecto tenemos dos cerraduras que tienen un pistón cada uno que se alimentan a 12v y lo que hemos echo a sido conectarlos a Arduino mediante un Mosfet BJT para poder programarlo y que se excite cuando el sensor de tarjetas haya dado acceso a la persona para poder entrar al aparca bicicletas.
 
-# Sensor RFDI
+# Sensor RFID
 
-https://i.ibb.co/JBGqwcv/kkkkk.jpg
+
+![RFDI](https://i.ibb.co/JBGqwcv/kkkkk.jpg)
+
+Este sensor se encarga de dar acceso o denegar el permiso para poder acceder al aparcamiento de bicicletas, esta programado para que a la persona que le de acceso active los pistones y pueda entrar.
+También lo que hará esta tarjeta es subir la información del usuario a un Excel para tener control sobre quien utiliza y quien no las bicicletas.
+
+# EXCEL
+
+![EXEL IMFO](https://i.ibb.co/X29HnxB/pl.png)
+
+Se a creado esta función para que se pueda controlar dentro de la empresa quien utiliza y quien no las bicicletas al final de cada mes, con el fin de que al usuario que se le ha dado una tarjeta lo utilice y si no lo utiliza darle de baja y darle la tarjeta a otro usuario en la empresa que quiera utilizar las bicicletas.
