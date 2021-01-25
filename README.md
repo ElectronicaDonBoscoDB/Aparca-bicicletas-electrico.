@@ -60,3 +60,10 @@ Se han utilizado luces led para iluminar dentro del aparcamiento, así el usuari
 Estas luces led se han programado por **Arduino** y no solo visualiza un color, también se ha programado para que cuando pases la tarjeta y el usuario este registrado se encenderán de color Verde y si no es reconocida por el lector se pondrán en color Rojo.
 
 
+# Buzzer (Altavoz).
+
+
+![altavoz](https://i.ibb.co/2MWtLBL/pepepe.png)
+
+Este pequeño altavoz se ha añadido por si vas despistado y pasas la tarjeta de prisa y te equivocas sonara 5 veces de manera cortada y si pasas correctamente la tarjeta sonara una sola vez de manera continua para que el usuario sepa que tiene acceso.
+Este altavoz se activara a la vez que las **luces led**.
