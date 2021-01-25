@@ -36,3 +36,6 @@ También lo que hará esta tarjeta es subir la información del usuario a un Exc
 ![EXEL IMFO](https://i.ibb.co/X29HnxB/pl.png)
 
 Se a creado esta función para que se pueda controlar dentro de la empresa quien utiliza y quien no las bicicletas al final de cada mes, con el fin de que al usuario que se le ha dado una tarjeta lo utilice y si no lo utiliza darle de baja y darle la tarjeta a otro usuario en la empresa que quiera utilizar las bicicletas.
+
+
+
