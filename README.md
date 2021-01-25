@@ -52,6 +52,11 @@ Se a utilizado una pantalla de 2,8 pulgadas que esta programada mediante Arduino
 En el proyecto tenemos dos cerraduras que tienen un pistón cada uno que se alimentan a 12v y lo que hemos echo a sido conectarlos a Arduino mediante un Mosfet BJT para poder programarlo y que se excite cuando el sensor de tarjetas haya dado acceso a la persona para poder entrar al aparca bicicletas.
 
 
+# Luces Led.
 
+![leds](https://i.ibb.co/kXGhHLR/led.png)
+
+Se han utilizado luces led para iluminar dentro del aparcamiento, así el usuario podrá tener visualización.
+Estas luces led se han programado por **Arduino** y no solo visualiza un color, también se ha programado para que cuando pases la tarjeta y el usuario este registrado se encenderán de color Verde y si no es reconocida por el lector se pondrán en color Rojo.
 
 
