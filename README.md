@@ -11,7 +11,7 @@ Una vez que la tarjeta le da acceso se encenderá unas luces leds de color blanc
 Para poder programar en Arduino tienes que descargarte su propio programa para poder programar y hacer lo que tu quieras    https://www.arduino.cc/en/software .
 
 
- Para la parte de electrónica se a utilizado Arduino Mega ya que en el proyecto necesitábamos muchos pines digitales y el Arduino Mega era el que mejor se adaptaba para poder conectar todo los componentes electrónicos ya que es el cerebro de este proyecto, en el Arduino se a conectado el sensor RFID (lector de tarjetas), las luces leds, un buzzer (un pequeño altavoz), una pantalla lcd.
+ Para la parte de electrónica se a utilizado Arduino Mega ya que en el proyecto se necesita muchos pines digitales y el Arduino Mega era el que mejor se adaptaba para poder conectar todo los componentes electrónicos ya que es el cerebro de este proyecto, en el Arduino se a conectado el sensor RFID (lector de tarjetas),Arduino Ethernet Shield, las luces leds, un buzzer (un pequeño altavoz), una pantalla lcd.
  
  
  # Arduino Ethernet Shield.
