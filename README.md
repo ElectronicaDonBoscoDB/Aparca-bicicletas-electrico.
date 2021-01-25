@@ -6,7 +6,7 @@ El proyecto se basa en que se ha creado un aparcamiento de bicicletas eléctrica
 Una vez que la tarjeta le da acceso se encenderá unas luces leds de color blanco controlado por Arduino y estas luces estarán dentro de la estructura metálica para que el usuario que haya accedido a coger la bicicleta pueda tener visualización dentro y poder coger la bicicleta fácilmente.
 
 # Arduino Mega
-![mega](https://i.ibb.co/P6rdfmR/arduino-mega-2560.jpg) 
+![mega](https://i.ibb.co/dBnq7BY/mm.png) 
 
 Para poder programar en Arduino tienes que descargarte su propio programa para poder programar y hacer lo que tu quieras    https://www.arduino.cc/en/software .
 
