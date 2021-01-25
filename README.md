@@ -12,16 +12,19 @@ Para poder programar en Arduino tienes que descargarte su propio programa para p
 
 
  Para la parte de electrónica se a utilizado Arduino Mega ya que en el proyecto necesitábamos muchos pines digitales y el Arduino Mega era el que mejor se adaptaba para poder conectar todo los componentes electrónicos ya que es el cerebro de este proyecto, en el Arduino se a conectado el sensor RFID (lector de tarjetas), las luces leds, un buzzer (un pequeño altavoz), una pantalla lcd.
-# Pantalla LCD
-![pantalla lcd](https://i.ibb.co/7V59yFr/mm.png)
+ 
+ 
+ # Arduino Ethernet Shield.
+
+![Shield](https://i.ibb.co/Hqt1dKT/interrr.png)
 
 
-Se a utilizado una pantalla de 2,8 pulgadas que esta programada mediante Arduino para que en ella muestre un mensaje al pasar la tarjeta, si es errónea saldrá un mensaje "Tarjeta incorrecta" y si la tarjeta es correcta se visualizara en la pantalla "cierre la puerta después de entrar ".
-# Cerraduras
+El Arduino ethernet shield nos da la capacidad de conectar un Arduino a una red ethernet.
+Se ha utilizado para poder registrar a los usuarios y subir su información cada vez que utilizan las tarjetas a un Excel.
 
-![cerraduras](https://i.ibb.co/Cz8R4JH/mm.png)
 
-En el proyecto tenemos dos cerraduras que tienen un pistón cada uno que se alimentan a 12v y lo que hemos echo a sido conectarlos a Arduino mediante un Mosfet BJT para poder programarlo y que se excite cuando el sensor de tarjetas haya dado acceso a la persona para poder entrar al aparca bicicletas.
+[Arduino Ethernet Shield.](https://www.amazon.es/Girasol-Ethernet-Arduino-R3-Mega-2560-1280-A057/dp/B00HG82V1A/ref=asc_df_B00HG82V1A/?tag=googshopes-21&linkCode=df0&hvadid=82853727250&hvpos=&hvnetw=g&hvrand=6687566675366269954&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005530&hvtargid=pla-124952602620&psc=1)
+
 
 # Sensor RFID
 
@@ -36,6 +39,20 @@ También lo que hará esta tarjeta es subir la información del usuario a un Exc
 ![EXEL IMFO](https://i.ibb.co/X29HnxB/pl.png)
 
 Se a creado esta función para que se pueda controlar dentro de la empresa quien utiliza y quien no las bicicletas al final de cada mes, con el fin de que al usuario que se le ha dado una tarjeta lo utilice y si no lo utiliza darle de baja y darle la tarjeta a otro usuario en la empresa que quiera utilizar las bicicletas.
+ 
+ 
+# Pantalla LCD
+![pantalla lcd](https://i.ibb.co/7V59yFr/mm.png)
+
+
+Se a utilizado una pantalla de 2,8 pulgadas que esta programada mediante Arduino para que en ella muestre un mensaje al pasar la tarjeta, si es errónea saldrá un mensaje "Tarjeta incorrecta" y si la tarjeta es correcta se visualizara en la pantalla "cierre la puerta después de entrar ".
+# Cerraduras
+
+![cerraduras](https://i.ibb.co/Cz8R4JH/mm.png)
+
+En el proyecto tenemos dos cerraduras que tienen un pistón cada uno que se alimentan a 12v y lo que hemos echo a sido conectarlos a Arduino mediante un Mosfet BJT para poder programarlo y que se excite cuando el sensor de tarjetas haya dado acceso a la persona para poder entrar al aparca bicicletas.
+
+
 
 
 
