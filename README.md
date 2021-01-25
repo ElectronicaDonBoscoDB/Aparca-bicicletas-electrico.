@@ -28,7 +28,7 @@ Se ha utilizado para poder subir información de los usuarios a internet y poder
 # Sensor RFID
 
 
-![RFDI](https://i.ibb.co/JBGqwcv/kkkkk.jpg)
+![RFDI](https://i.ibb.co/DD0LMzQ/interrr.pn)
 
 Este sensor se encarga de dar acceso o denegar el permiso para poder acceder al aparcamiento de bicicletas, esta programado para que a la persona que le de acceso active los pistones y pueda entrar.
 También lo que hará esta tarjeta es subir la información del usuario a un Excel para tener control sobre quien utiliza y quien no las bicicletas.
