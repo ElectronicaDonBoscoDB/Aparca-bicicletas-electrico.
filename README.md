@@ -66,6 +66,8 @@ En el proyecto tenemos dos cerraduras que tienen un pistón cada uno que se alim
 Se han utilizado luces led para iluminar dentro del aparcamiento, así el usuario podrá tener visualización.
 Estas luces led se han programado por **Arduino** y no solo visualiza un color, también se ha programado para que cuando pases la tarjeta y el usuario este registrado se encenderán de color Verde y si no es reconocida por el lector se pondrán en color Rojo.
 
+[Luces Led](https://www.efectoled.com/es/comprar-tiras-led-monocolor/60-tira-led-12v-dc-smd5050-60ledm-5m-rgb-ip65.html?)
+
 
 # Buzzer (Altavoz).
 
