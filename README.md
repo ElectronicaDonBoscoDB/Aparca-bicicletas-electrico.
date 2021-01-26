@@ -48,6 +48,10 @@ Se a creado esta función para que se pueda controlar dentro de la empresa quien
 
 
 Se a utilizado una pantalla de 2,8 pulgadas que esta programada mediante Arduino para que en ella muestre un mensaje al pasar la tarjeta, si es errónea saldrá un mensaje "Tarjeta incorrecta" y si la tarjeta es correcta se visualizara en la pantalla "cierre la puerta después de entrar ".
+
+[Pantalla LCD](https://www.amazon.es/gp/product/B07MXH92RL/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
+
+
 # Cerraduras
 
 ![cerraduras](https://i.ibb.co/Cz8R4JH/mm.png)
