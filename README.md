@@ -19,8 +19,9 @@ Para poder programar en Arduino tienes que descargarte su propio programa para p
 ![Shield](https://i.ibb.co/Hqt1dKT/interrr.png)
 
 
-El Arduino ethernet shield nos da la capacidad de conectar un Arduino a una red ethernet.
-Se ha utilizado para poder subir información de los usuarios a internet y poder controlar quien utiliza el aparca bicicletas y cuanto uso le da a lo largo del mes.
+El Arduino ethernet shield nos da la capacidad de conectar un Arduino a una red de internet mediante un cable ETHERNET.
+Se a utilizado para poder subir información a un EXCEL donde estan registrados todos los usuarios y controlar el uso que le dan al aparca bicicletas a lo largo del mes.
+La tabla EXCEL se a creado para poder ver el registro de cada usuario y poder darle de baja y poder registrar a nuevos usuarios que quieran utilizar el aparcabicicletas.
 
 [Arduino Ethernet Shield.](https://www.amazon.es/Girasol-Ethernet-Arduino-R3-Mega-2560-1280-A057/dp/B00HG82V1A/ref=asc_df_B00HG82V1A/?tag=googshopes-21&linkCode=df0&hvadid=82853727250&hvpos=&hvnetw=g&hvrand=6687566675366269954&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005530&hvtargid=pla-124952602620&psc=1)
 
