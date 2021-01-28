@@ -173,3 +173,6 @@ unsigned long testText7() {
   digitalWrite(Rojo, 0); //Apaga rojo
   delay(500);//Espera
 }
+
+
+//Esta programación hace que se encienda la pantalla, y muestre un mensaje de Puerta abierta y puerta cerrada.
