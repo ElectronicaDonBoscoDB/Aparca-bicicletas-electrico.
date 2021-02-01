@@ -1,14 +1,16 @@
 # BIKE-PARK.
 > ![bicicletas eléctricas. ](https://i.ibb.co/vd05wTK/latigo.png)> 
 ## ¿De que trata el proyecto?
-El proyecto se basa en que se ha creado un aparcamiento de bicicletas electrónico , que están cubiertas por una estructura metálica y lo que se ha  echo a sido adaptarle a esta estructura unos enchufes para que se puedan cargar las bicicletas, también se a utilizado Arduino que es el cerebro de este proyecto ya que gracias a Arduino se a podido añadirle a la estructura de metal un sensor RFID que es un lector de tarjetas, una pantalla LCD para que se pueda ver si tienes o no accseso, un Buzzer que pitara cuando pases la tarjeta . Lo que hace este lector de tarjetas es registrar al usuario cuando alguien pasa la tarjeta y no sea correcta no se activaran los pistones de la puerta y si es correcta le da acceso para poder abrir la puerta de la estructura metálica y que pueda coger la bicicleta, en el momento en que la tarjeta le da acceso, la tarjeta manda la información del usuario a un Excel donde se podrá verificar quien ha accedido a la bicicleta, a que hora, quien es con el numero de la tarjeta etc.
+El proyecto se basa en que a un aparcamiento de bicicletas común se le a añadido electrónica, creando un aparcamiento de bicicletas electrónico , el aparcamiento esta cubierto por una estructura metálica y lo que se a  echo a sido adaptarle a la estructura unos enchufes para que se puedan cargar las bicicletas, también se a utilizado Arduino que es el contolador principal de este proyecto ya que gracias a Arduino se a podido añadir a la estructura de metal un sensor RFID que es un lector de tarjetas, una pantalla LCD para que se pueda ver si tienes o no acceso y un Buzzer que pitara cuando pases la tarjeta.
+Lo que hace este lector de tarjetas es registrar al usuario, cuando alguien pasa la tarjeta por el sensor RFID, en la pantalla Lcd se visualira si la tarjeta que se a pasado por el sensor es correcta o no.
+En caso de que no sea correcta no se activan los pistones de la puerta, se activa el buzzer y las luces se activan en color rojo en forma de acceso denegado, si la tarjeta es correcta le da permiso para poder abrir la puerta de la estructura metálica y  coger la bicicleta, en el momento en que la tarjeta le da acceso, la tarjeta manda la información del usuario a un Excel donde se podrá verificar quien ha accedido a la bicicleta, a que hora, quien es con el numero de la tarjeta, activara las cerraduras, el buzzer y las luces Leds, primero durante unos segundos parpadearan en color verde y despues cambian a color blanco fijo para poder tener una buena visualización dentro del aparcamiento.
 
-Una vez que la tarjeta le da acceso se encenderá unas luces leds de color blanco controlado por Arduino y estas luces estarán dentro de la estructura metálica para que el usuario que haya accedido a coger la bicicleta pueda tener visualización dentro y poder coger la bicicleta fácilmente.
+
 
 # Arduino Mega
 ![mega](https://i.ibb.co/dBnq7BY/mm.png) 
 
-Para poder programar en Arduino tienes que descargarte su propio programa para poder programar y hacer lo que tu quieras    https://www.arduino.cc/en/software .
+Para poder programar en Arduino tienes que descargarte su propio programa https://www.arduino.cc/en/software  que es un lenguaje c++.
 
 
  Para la parte de electrónica se a utilizado Arduino Mega ya que en el proyecto se necesita muchos pines digitales y el Arduino Mega era el que mejor se adaptaba para poder conectar todo los componentes electrónicos ya que es el cerebro de este proyecto, en el Arduino se a conectado el sensor RFID (lector de tarjetas),Arduino Ethernet Shield, las luces leds, un buzzer (un pequeño altavoz), una pantalla lcd.
