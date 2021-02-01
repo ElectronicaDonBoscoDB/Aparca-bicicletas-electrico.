@@ -10,6 +10,10 @@ Lo que hace este lector de tarjetas es registrar al usuario, cuando alguien pasa
 En caso de que no sea correcta no se activan los pistones de la puerta, se activa el buzzer y las luces se activan en color rojo en forma de acceso denegado, si la tarjeta es correcta le da permiso para poder abrir la puerta de la estructura metálica y  coger la bicicleta, en el momento en que la tarjeta le da acceso, la tarjeta manda la información del usuario a un Excel donde se podrá verificar quien ha accedido a la bicicleta, a que hora, quien es con el numero de la tarjeta, activara las cerraduras, el buzzer y las luces Leds, primero durante unos segundos parpadearan en color verde y despues cambian a color blanco fijo para poder tener una buena visualización dentro del aparcamiento.
 
 
+También se a creado en **[Trello](https://trello.com/b/LMd40IME/aparcabicis)** un calendario online donde nosotros nos hemos marcado un objetivo cada semana para poder acabar este trabajo a tiempo y saber que se iba en buen camino y cada vez que se terminaba  el objetivo de la semana o no, lo verificabamos.     
+
+
+
 
 # Arduino Mega
 ![mega](https://i.ibb.co/dBnq7BY/mm.png) 
