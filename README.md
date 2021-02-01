@@ -36,6 +36,9 @@ La tabla EXCEL se a creado para poder ver el registro de cada usuario y poder da
 [Arduino Ethernet Shield.](https://www.amazon.es/Girasol-Ethernet-Arduino-R3-Mega-2560-1280-A057/dp/B00HG82V1A/ref=asc_df_B00HG82V1A/?tag=googshopes-21&linkCode=df0&hvadid=82853727250&hvpos=&hvnetw=g&hvrand=6687566675366269954&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005530&hvtargid=pla-124952602620&psc=1)
 
 
+[SCRIPT](https://script.google.com/u/1/home/projects/1AHv-A95fr-WKhxJjRaKxP7JcMDadVkK7agKZwLtyXLvbldq81C3BFrr_/edit) Son los codigos que hay que poner se trata de un código de programación, usualmente sencillo, que contiene comandos u ordenes que se van ejecutando de manera secuencial y se utilizan para controlar el comportamiento de un programa en especifico , en nuestro caso se a utilizado para que controle **Arduino** **Mega.**
+
+
 # Sensor RFID
 
 
