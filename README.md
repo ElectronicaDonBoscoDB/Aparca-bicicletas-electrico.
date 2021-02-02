@@ -4,16 +4,26 @@
 Es un proyecto innovador en el que se convinan un  aparcamiento de bicicletas común y la electrónica, creando un aparcamiento de bicicletas electrónico. 
 
 
-El aparcamiento esta cubierto por una estructura metálica y lo que se a  echo a sido adaptarle a la estructura unos enchufes para que se puedan cargar las bicicletas, también se a utilizado Arduino que es el contolador principal de este proyecto ya que gracias a Arduino se a podido añadir a la estructura de metal un sensor RFID que es un lector de tarjetas, una pantalla LCD para que se pueda ver si tienes o no acceso y un Buzzer que pitara cuando pases la tarjeta.
+El aparcamiento esta cubierto por una estructura metálica semicircular y esta adaptada para  bicicletas electricas con  enchufes para que se puedan cargar en caso de que les falte bateria, con luces leds para que tengan una buena visualización y con dos electroimanes(cerraduras) que se encuentran en las puertas.
 
 
-Lo que hace este lector de tarjetas es dar acceso o no al Bike-Park ya que se a registrar a los usuarios en la nube que tienen permiso , cuando alguien pasa la tarjeta por el sensor RFID, en la pantalla Lcd se visualira si la tarjeta que se a pasado por el sensor esta registrada o no.
+
+El aparcamiento tiene un cuadro electrico, en su interior tiene una fuente de alimentación de 12V, magnetotermicos, diferencial y Pias para proteguer los circuitos electricos. En su interior también esta  Arduino Mega, es el contolador principal ya que gracias a Arduino se a podido programar la pantalla LCD,un sensor RFID y un Buzzer, Además hay una placa de circuito integrado que comunica todo los componentes electrónicos en un mismo circuito.
 
 
-En caso de que no sea correcta no se activan los pistones de la puerta, se activa el buzzer y las luces se activan en color rojo en forma de acceso denegado, si la tarjeta es correcta le da permiso para poder abrir la puerta de la estructura metálica y  coger la bicicleta, en el momento en que la tarjeta le da acceso, la tarjeta manda la información del usuario a un Excel donde se podrá verificar quien ha accedido a la bicicleta, a que hora, quien es con el numero de la tarjeta, activara las cerraduras, el buzzer y las luces Leds, primero durante unos segundos parpadearan en color verde y despues cambian a color blanco fijo para poder tener una buena visualización dentro del aparcamiento.
+
+Se a creado en un sofware llamado **[Trello](https://trello.com/b/LMd40IME/aparcabicis)** un calendario online, donde se a marcado un objetivo cada semana para verificar que se estaba trabajando correctamente y saber si se iba correctamente.
 
 
-También se a creado en **[Trello](https://trello.com/b/LMd40IME/aparcabicis)** un calendario online, donde se a marcado un objetivo cada semana para poder acabar este trabajo a tiempo y saber que se iba en buen camino y cada vez que se terminaba  el objetivo de la semana o no, se verificaba.     
+#Funcionamiento 
+
+En el exterior del Bike-Park se encuentra un cuadro electrico el cual tiene una pantalla LCD, un sensor RFID y un Buzzer.
+Cuando el usuario acerque su tarjeta al sensor RFID  y detecte la tarjeta como no registrada en el sistema, los electroimanes de las cerraduras no se activaran, el Buzzer se activara sonando 5 veces, las luces leds se pondran en color rojo y la pantalla mostrara un mensaje de "tarjeta incorrecta".
+
+
+
+
+//En caso de que no sea correcta no se activan los pistones de la puerta, se activa el buzzer y las luces se activan en color rojo en forma de acceso denegado, si la tarjeta es correcta le da permiso para poder abrir la puerta de la estructura metálica y  coger la bicicleta, en el momento en que la tarjeta le da acceso, la tarjeta manda la información del usuario a un Excel donde se podrá verificar quien ha accedido a la bicicleta, a que hora, quien es con el numero de la tarjeta, activara las cerraduras, el buzzer y las luces Leds, primero durante unos segundos parpadearan en color verde y despues cambian a color blanco fijo para poder tener una buena visualización dentro del aparcamiento.
 
 
 
