@@ -15,7 +15,7 @@ El aparcamiento tiene un cuadro electrico, en su interior tiene una fuente de al
 Se a creado en un sofware llamado **[Trello](https://trello.com/b/LMd40IME/aparcabicis)** un calendario online, donde se a marcado un objetivo cada semana para verificar que se estaba trabajando correctamente y saber si se iba correctamente.
 
 
-#Funcionamiento 
+# Funcionamiento 
 
 En el exterior del Bike-Park se encuentra un cuadro electrico el cual tiene una pantalla LCD, un sensor RFID y un Buzzer.
 Cuando el usuario acerque su tarjeta al sensor RFID  y detecte la tarjeta como no registrada en el sistema, los electroimanes de las cerraduras no se activaran, el Buzzer se activara sonando 5 veces, las luces leds se pondran en color rojo y la pantalla mostrara un mensaje de "tarjeta incorrecta".
