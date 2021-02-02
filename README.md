@@ -80,7 +80,7 @@ En el proyecto tenemos dos cerraduras que tienen un pistón cada uno que se alim
 ![leds](https://i.ibb.co/kXGhHLR/led.png)
 
 Se han utilizado luces led para la iluminazión del interior del Bike park.
-Estas luces led se han programado mediante **Arduino** y con transitores BC337, se han utilizado estos transistores por que las luces leds se conectaban a 12V y arduino se alimenta con una tensión de 5V, por eso se utilizo estos transistores para poder controlar ambas tensiones y poder programar las luces leds con el color que nosotros nos convenga segun la situación, es decir si el usuario no esta registrado se encendaran las luces en color rojo en modo intermitente y si esta registrado se encenderan en color verde en modo intermitente y despues cambiara a color blanco fijo durante un tiempo para que el usuario pueda ver dentro del Bike-Park.
+Estas luces led se han programado mediante **Arduino** y con transitores BC337, se han utilizado estos transistores por que las luces leds se conectaban a 12V y arduino se alimenta con una tensión de 5V, por eso se utilizo estos transistores para poder controlar ambas tensiones y poder programar las luces leds con el color que nosotros nos convenga segun la situación, es decir si el usuario no esta registrado se encendaran las luces en color rojo en modo intermitente y si esta registrado se encenderan en color verde en modo intermitente y después cambiara a color blanco fijo durante un tiempo para que el usuario pueda ver dentro del Bike-Park.
 
 [Luces Led.](https://www.efectoled.com/es/comprar-tiras-led-monocolor/60-tira-led-12v-dc-smd5050-60ledm-5m-rgb-ip65.html?)
 
