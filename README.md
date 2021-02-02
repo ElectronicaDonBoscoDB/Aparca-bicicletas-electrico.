@@ -1,7 +1,10 @@
 # BIKE-PARK.
 > ![bicicletas eléctricas. ](https://i.ibb.co/vd05wTK/latigo.png)> 
 ## ¿De que trata el proyecto?
-Es un proyecto innovador en el que se convinan un  aparcamiento de bicicletas común y la electrónica, creando un aparcamiento de bicicletas electrónico , el aparcamiento esta cubierto por una estructura metálica y lo que se a  echo a sido adaptarle a la estructura unos enchufes para que se puedan cargar las bicicletas, también se a utilizado Arduino que es el contolador principal de este proyecto ya que gracias a Arduino se a podido añadir a la estructura de metal un sensor RFID que es un lector de tarjetas, una pantalla LCD para que se pueda ver si tienes o no acceso y un Buzzer que pitara cuando pases la tarjeta.
+Es un proyecto innovador en el que se convinan un  aparcamiento de bicicletas común y la electrónica, creando un aparcamiento de bicicletas electrónico. 
+
+
+El aparcamiento esta cubierto por una estructura metálica y lo que se a  echo a sido adaptarle a la estructura unos enchufes para que se puedan cargar las bicicletas, también se a utilizado Arduino que es el contolador principal de este proyecto ya que gracias a Arduino se a podido añadir a la estructura de metal un sensor RFID que es un lector de tarjetas, una pantalla LCD para que se pueda ver si tienes o no acceso y un Buzzer que pitara cuando pases la tarjeta.
 
 
 Lo que hace este lector de tarjetas es dar acceso o no al Bike-Park ya que se a registrar a los usuarios en la nube que tienen permiso , cuando alguien pasa la tarjeta por el sensor RFID, en la pantalla Lcd se visualira si la tarjeta que se a pasado por el sensor esta registrada o no.
