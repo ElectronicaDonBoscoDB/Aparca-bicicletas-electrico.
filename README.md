@@ -1,7 +1,7 @@
 # BIKE-PARK.
 > ![bicicletas eléctricas. ](https://i.ibb.co/vd05wTK/latigo.png)> 
 ## ¿De que trata el proyecto?
-El proyecto se basa en que a un aparcamiento de bicicletas común se le a añadido electrónica, creando un aparcamiento de bicicletas electrónico , el aparcamiento esta cubierto por una estructura metálica y lo que se a  echo a sido adaptarle a la estructura unos enchufes para que se puedan cargar las bicicletas, también se a utilizado Arduino que es el contolador principal de este proyecto ya que gracias a Arduino se a podido añadir a la estructura de metal un sensor RFID que es un lector de tarjetas, una pantalla LCD para que se pueda ver si tienes o no acceso y un Buzzer que pitara cuando pases la tarjeta.
+Es un proyecto innovador en el que se a juntado un  aparcamiento de bicicletas común y la electrónica, creando un aparcamiento de bicicletas electrónico , el aparcamiento esta cubierto por una estructura metálica y lo que se a  echo a sido adaptarle a la estructura unos enchufes para que se puedan cargar las bicicletas, también se a utilizado Arduino que es el contolador principal de este proyecto ya que gracias a Arduino se a podido añadir a la estructura de metal un sensor RFID que es un lector de tarjetas, una pantalla LCD para que se pueda ver si tienes o no acceso y un Buzzer que pitara cuando pases la tarjeta.
 
 
 Lo que hace este lector de tarjetas es dar acceso o no al Bike-Park ya que se a registrar a los usuarios en la nube que tienen permiso , cuando alguien pasa la tarjeta por el sensor RFID, en la pantalla Lcd se visualira si la tarjeta que se a pasado por el sensor esta registrada o no.
@@ -38,7 +38,7 @@ La tabla EXCEL se a creado para poder ver el registro de cada usuario y poder da
 [Arduino Ethernet Shield.](https://www.amazon.es/Girasol-Ethernet-Arduino-R3-Mega-2560-1280-A057/dp/B00HG82V1A/ref=asc_df_B00HG82V1A/?tag=googshopes-21&linkCode=df0&hvadid=82853727250&hvpos=&hvnetw=g&hvrand=6687566675366269954&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005530&hvtargid=pla-124952602620&psc=1)
 
 
-[SCRIPT](https://script.google.com/u/1/home/projects/1AHv-A95fr-WKhxJjRaKxP7JcMDadVkK7agKZwLtyXLvbldq81C3BFrr_/edit) Son los codigos que hay que poner, se trata de un código de programación, usualmente sencillo, que contiene comandos u ordenes que se van ejecutando de manera secuencial y se utilizan para controlar el comportamiento de un programa en especifico , se uso para que controlar **Arduino** **Mega.**
+[SCRIPT](https://script.google.com/u/1/home/projects/1AHv-A95fr-WKhxJjRaKxP7JcMDadVkK7agKZwLtyXLvbldq81C3BFrr_/edit) Es un Sofware que se ha utilizado para transmitir los datos de los usuarios que hemos registrado con cada tarjeta en arduino y que aparezcan en un Excel.
 
 
 # Sensor RFID
