@@ -88,7 +88,7 @@ En el Bike-Park se encuentran dos cerraduras que tienen un pistón, cada uno se 
 
 # Luces Led.
 
-![leds](https://i.ibb.co/kXGhHLR/led.png)
+![leds](https://i.ibb.co/3sMNfCh/Luces-led-12v-final.png) 
 
 Se han utilizado luces led para la iluminazión del interior del Bike park.
 Estas luces led se han programado mediante **Arduino** **Mega** y con transitores IRF530, se han utilizado estos transistores por que las luces leds se alimentan a 12V y para conseguir este voltaje se ha conectado a una fuente de alimentación de 12V a la misma que estan conectadas los **electroimanes**. Esto se ha echo debido que arduino da una salida de voltaje como maximo de 5V , por eso se utilizo estos transistores para poder controlar ambas tensiones y poder programar las luces leds con el color que se necesitaba segun la situación, es decir si el usuario no esta registrado se encendaran las luces en color rojo en modo intermitente y si esta registrado se encenderan en color verde en modo intermitente y después cambiara a color blanco fijo durante un tiempo para que el usuario pueda ver dentro del Bike-Park.
