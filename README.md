@@ -25,7 +25,7 @@ La otra opción es cuando el usuario acerque su tarjeta en el sensor RFID  y det
 
 
 # Arduino Mega
-![mega](https://i.ibb.co/dBnq7BY/mm.png) 
+![mega](https://i.ibb.co/hdxcs20/proyecto-final-todo-conectado.png) 
 
 Para programar en Arduino tienes que descargarte su propio sofware https://www.arduino.cc/en/software  que es un lenguaje c++.
 
