@@ -53,7 +53,7 @@ La tabla EXCEL se creó para poder ver el registro de cada usuario y poder darle
 # Sensor RFID
 
 
-![RFDI](https://i.ibb.co/DD0LMzQ/interrr.png)
+![RFDI](https://i.ibb.co/MkJnCsQ/RFIDFINAL.png)
 
 Este sensor se encarga de dar acceso o denegar el permiso para poder acceder al Bike-Park, esta programado para que a la persona que le de acceso active los pistones y pueda entrar.
 También lo que hace el sensor RFID  es subir la información del usuario a un Excel  para tener control sobre quien utiliza y quien no las bicicletas.
