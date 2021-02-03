@@ -12,29 +12,25 @@ El aparcamiento tiene un cuadro electrico, en su interior tiene una fuente de al
 
 
 
-Se a creado en un sofware llamado **[Trello](https://trello.com/b/LMd40IME/aparcabicis)** un calendario online, donde se a marcado un objetivo cada semana para verificar que se estaba trabajando correctamente y saber si se iba correctamente.
+Se a creado en un sofware llamado **[Trello](https://trello.com/b/LMd40IME/aparcabicis)** un calendario online, donde se a marcado un objetivo cada semana para verificar que se estaba trabajando correctamente y saber si se iba correctamente en el Bike-Park.
 
 
 # Funcionamiento 
 
-En el exterior del Bike-Park se encuentra un cuadro electrico el cual tiene una pantalla LCD, un sensor RFID y un Buzzer.
-Cuando el usuario acerque su tarjeta al sensor RFID  y detecte la tarjeta como no registrada en el sistema, los electroimanes de las cerraduras no se activaran, el Buzzer se activara sonando 5 veces, las luces leds se pondran en color rojo y la pantalla mostrara un mensaje de "tarjeta incorrecta".
+El Bike-Park en su interior se encuentran las luces leds y los electroimanes que se encuentran en los laterales de la puerta. En el exterior del Bike-Park en el lateral izquierdo de la estructura se encuentra un cuadro eléctrico el cual contiene una pantalla LCD, un sensor RFID y un Buzzer.
+Cuando el usuario pasa la tarjeta por el sensor RFID y se encuentra registrado, lo primero que hace es subir la imformación del usuario a un Excel para saber a final de mes quien utiliza y quien no el Bike-Park. Se enciende el Buzzer emitiendo un solo pitido continuo durante 3 segundos que a la vez activa las luces leds, primero en color verde intermitente visualizando que la tarjeta es correcta y después cambaia a color blanco fijo donde se mantiene encendido durante 1 minuto y la pantalla LCD visualiza un texto indicando "puerta abierta", este mensaje también aparece en Euskera.
 
-
-
-
-//En caso de que no sea correcta no se activan los pistones de la puerta, se activa el buzzer y las luces se activan en color rojo en forma de acceso denegado, si la tarjeta es correcta le da permiso para poder abrir la puerta de la estructura metálica y  coger la bicicleta, en el momento en que la tarjeta le da acceso, la tarjeta manda la información del usuario a un Excel donde se podrá verificar quien ha accedido a la bicicleta, a que hora, quien es con el numero de la tarjeta, activara las cerraduras, el buzzer y las luces Leds, primero durante unos segundos parpadearan en color verde y despues cambian a color blanco fijo para poder tener una buena visualización dentro del aparcamiento.
-
+La otra opción es cuando el usuario acerque su tarjeta en el sensor RFID  y detecte la tarjeta como no registrada en el sistema, se subira a un Excel imformación de que algun usuario no registrado en el sistema ha intentado acceder al Bike-Park. Lo que hace la tarjeta que no esta registrada es no activa los electroimanes de la puerta, el Buzzer se activa sonando 5 veces, las luces leds se encienden en color rojo y la pantalla LCD visualiza un mensaje de "tarjeta incorrecta".
 
 
 
 # Arduino Mega
 ![mega](https://i.ibb.co/dBnq7BY/mm.png) 
 
-Para programar en Arduino tienes que descargarte su propio programa https://www.arduino.cc/en/software  que es un lenguaje c++.
+Para programar en Arduino tienes que descargarte su propio sofware https://www.arduino.cc/en/software  que es un lenguaje c++.
 
 
- Para la parte de electrónica se a utilizado Arduino Mega ya que en este proyecto se necesita muchos pines digitales y el Arduino Mega era el que mejor se adaptaba para poder conectar todo los componentes electrónicos ya que es el cerebro de este proyecto, en el Arduino se a conectado el sensor RFID (lector de tarjetas),Arduino Ethernet Shield, las luces leds, un buzzer (un pequeño altavoz), una pantalla lcd y las Cerraduras.
+ Para la parte de electrónica se a utilizado Arduino Mega. Para este proyecto se ha utilizado muchos pines digitales y el Arduino Mega era el que mejor se ha adaptado para poder conectar todo los componentes electrónicos, siendo  el cerebro de este proyecto, en el Arduino se a conectado el sensor RFID (lector de tarjetas),Arduino Ethernet Shield, las luces leds, un buzzer (pequeño altavoz), una pantalla lcd y las Cerraduras. Aparte de conectar todos los componentes electronicos se han programado para que realizen su funcion correctamente, además se an añadido a esta programación librerias, codigos, se ha creado un servidor para la conexión a internet etc.
  
  
  # Arduino Ethernet Shield.
@@ -42,16 +38,16 @@ Para programar en Arduino tienes que descargarte su propio programa https://www.
 ![Shield](https://i.ibb.co/Hqt1dKT/interrr.png)
 
 
-El Arduino ethernet shield es el que da la capacidad de conectar un Arduino a una red de internet mediante un cable ETHERNET, es decir el Arduino ethernet shield es una placa de tamaño reducido que trae una toma de RJ45 en su propio circuito y para conseguir que Arduino Mega tenga conexión a internet se conectan estos dos modulos, el Arduino ethernet shield encima de el Arduino Mega, conectandolos con pines específicos.
+El Arduino ethernet shield es el que da la capacidad de conectar un Arduino a una red de internet mediante un cable ETHERNET, es decir el Arduino ethernet shield es una placa de tamaño reducido que trae una toma de RJ45 en su propio circuito integrado y para conseguir que Arduino Mega tenga conexión a internet se conectan estos dos modulos, el Arduino ethernet shield encima de el Arduino Mega, conectandolos con pines específicos.
 
 
  Arduino ethernet shield se a utilizado para poder subir información a un EXCEL donde estan registrados todos los usuarios y controlar el uso que le dan al Bike-Park a lo largo del mes.
-La tabla EXCEL se a creado para poder ver el registro de cada usuario y poder darle de baja en caso de que no le de uso y poder registrar a nuevos usuarios que quieran utilizar el Bike-Park.
+La tabla EXCEL se creó para poder ver el registro de cada usuario y poder darle de baja en el sistema en caso de que no le de uso y poder registrar a nuevos usuarios que quieran utilizar el Bike-Park.
 
 [Arduino Ethernet Shield.](https://www.amazon.es/Girasol-Ethernet-Arduino-R3-Mega-2560-1280-A057/dp/B00HG82V1A/ref=asc_df_B00HG82V1A/?tag=googshopes-21&linkCode=df0&hvadid=82853727250&hvpos=&hvnetw=g&hvrand=6687566675366269954&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1005530&hvtargid=pla-124952602620&psc=1)
 
 
-[SCRIPT](https://script.google.com/u/1/home/projects/1AHv-A95fr-WKhxJjRaKxP7JcMDadVkK7agKZwLtyXLvbldq81C3BFrr_/edit) Es un Sofware que se ha utilizado para transmitir los datos de los usuarios que hemos registrado con cada tarjeta en arduino y que aparezcan en un Excel.
+[SCRIPT](https://script.google.com/u/1/home/projects/1AHv-A95fr-WKhxJjRaKxP7JcMDadVkK7agKZwLtyXLvbldq81C3BFrr_/edit) Es un Sofware que se ha utilizado para transmitir los datos de los usuarios que se ha registrado con cada tarjeta en arduino y que aparezcan en el Excel.
 
 
 # Sensor RFID
@@ -60,7 +56,7 @@ La tabla EXCEL se a creado para poder ver el registro de cada usuario y poder da
 ![RFDI](https://i.ibb.co/DD0LMzQ/interrr.png)
 
 Este sensor se encarga de dar acceso o denegar el permiso para poder acceder al Bike-Park, esta programado para que a la persona que le de acceso active los pistones y pueda entrar.
-También lo que hará esta tarjeta es subir la información del usuario a un Excel para tener control sobre quien utiliza y quien no las bicicletas.
+También lo que hace el sensor RFID  es subir la información del usuario a un Excel  para tener control sobre quien utiliza y quien no las bicicletas.
 
 [Sensor RFID.](https://www.amazon.es/azdelivery-RC522-RFID-Arduino-Raspberry-Inclus/dp/B074S8MRQ7/ref=sr_1_12?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=rfid&qid=1611648731&sr=8-12)
 
@@ -85,9 +81,11 @@ Se a utilizado una pantalla de 2,8 pulgadas que esta programada mediante Arduino
 
 ![cerraduras](https://i.ibb.co/Cz8R4JH/mm.png)
 
-En el proyecto tenemos dos cerraduras que tienen un pistón cada uno que se alimenta a 12v y lo que hemos echo a sido conectarlos a Arduino mediante un Mosfet BJT para poder programarlo y que se excite cuando el sensor de tarjetas detecte que el usuario esta registrado en la red para poder entrar al Bike-Park.
+En el Bike-Park se encuentran dos cerraduras que tienen un pistón, cada uno se alimenta a 12V para conseguir este voltaje se ha integrado en el cuadro eléctrico una fuente de alimentación de 12V y lo que se a conseguido a sido conectarlos a Arduino mediante unos transistores BC337 para poder controlarlos ya que Arduino tiene un voltaje de salida máximo de 5V y los electroimanes se alimentan a 12V. Para que se excite los pistones, el sensor de tarjetas tiene que detectar que el usuario esta registrado en el sistema para poder entrar al Bike-Park.
 
 [Cerrojos electromagnéticos.](https://www.nafsa.es/productos/cerrojos-seguridad-electromagneticos/cu20cpb/)
+
+
 # Luces Led.
 
 ![leds](https://i.ibb.co/kXGhHLR/led.png)
