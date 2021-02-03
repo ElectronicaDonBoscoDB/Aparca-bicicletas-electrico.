@@ -91,7 +91,7 @@ En el Bike-Park se encuentran dos cerraduras que tienen un pistón, cada uno se 
 ![leds](https://i.ibb.co/kXGhHLR/led.png)
 
 Se han utilizado luces led para la iluminazión del interior del Bike park.
-Estas luces led se han programado mediante **Arduino** y con transitores BC337, se han utilizado estos transistores por que las luces leds se conectaban a 12V y arduino se alimenta con una tensión de 5V, por eso se utilizo estos transistores para poder controlar ambas tensiones y poder programar las luces leds con el color que nosotros nos convenga segun la situación, es decir si el usuario no esta registrado se encendaran las luces en color rojo en modo intermitente y si esta registrado se encenderan en color verde en modo intermitente y después cambiara a color blanco fijo durante un tiempo para que el usuario pueda ver dentro del Bike-Park.
+Estas luces led se han programado mediante **Arduino** **Mega** y con transitores IRF530, se han utilizado estos transistores por que las luces leds se alimentan a 12V y para conseguir este voltaje se ha conectado a una fuente de alimentación de 12V a la misma que estan conectadas los **electroimanes**. Esto se ha echo debido que arduino da una salida de voltaje como maximo de 5V , por eso se utilizo estos transistores para poder controlar ambas tensiones y poder programar las luces leds con el color que se necesitaba segun la situación, es decir si el usuario no esta registrado se encendaran las luces en color rojo en modo intermitente y si esta registrado se encenderan en color verde en modo intermitente y después cambiara a color blanco fijo durante un tiempo para que el usuario pueda ver dentro del Bike-Park.
 
 [Luces Led.](https://www.efectoled.com/es/comprar-tiras-led-monocolor/60-tira-led-12v-dc-smd5050-60ledm-5m-rgb-ip65.html?)
 
@@ -101,7 +101,7 @@ Estas luces led se han programado mediante **Arduino** y con transitores BC337, 
 
 ![altavoz](https://i.ibb.co/2MWtLBL/pepepe.png)
 
-Este pequeño altavoz se ha añadido por si el usuario va despistado y pasa la tarjeta de prisa y no se da cuenta que la tarjeta que paso no esta registrada el altavoz sonara 5 veces de manera cortada y si pasas correctamente la tarjeta sonara una sola vez de manera continua para que el usuario sepa que tiene acceso.
+Este altavoz se ha añadido para los usuarios que van despistado, pasan la tarjeta por el lector RFID de prisa y no se da cuenta que la tarjeta que paso no esta registrada el altavoz sonara 5 veces de manera cortada y si pasas correctamente la tarjeta sonara una sola vez de manera continua para que el usuario se de cuenta de que tiene acceso.
 Este altavoz se activara a la vez que las **luces led**.
 
 [Altavoz.](https://www.digikey.es/product-detail/es/murata-electronics/PKM22EPPH2001-B0/490-4691-ND/1219322?utm_adgroup=Alarms%2C%20Buzzers%2C%20and%20Sirens&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Audio%20Products&utm_term=&productid=1219322&gclid=CjwKCAiAoOz-BRBdEiwAyuvA6zgxQUegh7BL6GhSCe8hY-i_EjmltysM9wPGEdsBY-yMeewsGVh59xoCWakQAvD_BwE)
