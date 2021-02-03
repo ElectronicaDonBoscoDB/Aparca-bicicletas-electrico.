@@ -69,7 +69,7 @@ Se a creado un EXCEL para que se pueda controlar dentro de la empresa quien util
  
  
 # Pantalla LCD
-![pantalla lcd](https://i.ibb.co/7V59yFr/mm.png)
+![pantalla lcd](https://i.ibb.co/HTXXHHh/lcdxdfinal.png)
 
 
 Se a utilizado una pantalla de 2,8 pulgadas que esta programada mediante Arduino para que en ella muestre un mensaje al pasar la tarjeta, si es errónea saldrá un mensaje "Tarjeta incorrecta" y si la tarjeta es correcta se visualizara en la pantalla "cierre la puerta después de entrar ", tambien aparacera este mismo mensaje en Euskera.
