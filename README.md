@@ -105,3 +105,4 @@ Este altavoz se ha añadido para los usuarios que van despistado, pasan la tarje
 Este altavoz se activara a la vez que las **luces led**.
 
 [Altavoz.](https://www.digikey.es/product-detail/es/murata-electronics/PKM22EPPH2001-B0/490-4691-ND/1219322?utm_adgroup=Alarms%2C%20Buzzers%2C%20and%20Sirens&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Audio%20Products&utm_term=&productid=1219322&gclid=CjwKCAiAoOz-BRBdEiwAyuvA6zgxQUegh7BL6GhSCe8hY-i_EjmltysM9wPGEdsBY-yMeewsGVh59xoCWakQAvD_BwE)
+![buzzer montador](https://i.ibb.co/hdFr4gq/buzzer-final.png)
