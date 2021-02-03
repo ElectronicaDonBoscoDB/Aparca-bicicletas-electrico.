@@ -12,7 +12,7 @@ El aparcamiento tiene un cuadro electrico, en su interior tiene una fuente de al
 
 
 
-Se a creado en un sofware llamado **[Trello](https://trello.com/b/LMd40IME/aparcabicis)** un calendario online, donde se a marcado un objetivo cada semana para verificar que se estaba trabajando correctamente y saber si se iba correctamente en el Bike-Park.
+Se a creado en un sofware llamado **[Trello](https://trello.com/b/LMd40IME/aparcabicis)** un calendario online, donde se a marcado un objetivo cada semana para verificar que se estaba trabajando bien y saber si se iba correctamente en el proyecto Bike-Park.
 
 
 # Funcionamiento 
