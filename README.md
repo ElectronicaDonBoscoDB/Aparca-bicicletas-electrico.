@@ -99,10 +99,10 @@ Estas luces led se han programado mediante **Arduino** **Mega** y con transitore
 # Buzzer (Altavoz).
 
 
-![altavoz](https://i.ibb.co/2MWtLBL/pepepe.png)
+![buzzer montador](https://i.ibb.co/hdFr4gq/buzzer-final.png)
 
 Este altavoz se ha añadido para los usuarios que van despistado, pasan la tarjeta por el lector RFID de prisa y no se da cuenta que la tarjeta que paso no esta registrada el altavoz sonara 5 veces de manera cortada y si pasas correctamente la tarjeta sonara una sola vez de manera continua para que el usuario se de cuenta de que tiene acceso.
 Este altavoz se activara a la vez que las **luces led**.
 
 [Altavoz.](https://www.digikey.es/product-detail/es/murata-electronics/PKM22EPPH2001-B0/490-4691-ND/1219322?utm_adgroup=Alarms%2C%20Buzzers%2C%20and%20Sirens&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Audio%20Products&utm_term=&productid=1219322&gclid=CjwKCAiAoOz-BRBdEiwAyuvA6zgxQUegh7BL6GhSCe8hY-i_EjmltysM9wPGEdsBY-yMeewsGVh59xoCWakQAvD_BwE)
-![buzzer montador](https://i.ibb.co/hdFr4gq/buzzer-final.png)
+
