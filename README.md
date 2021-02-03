@@ -79,7 +79,7 @@ Se a utilizado una pantalla de 2,8 pulgadas que esta programada mediante Arduino
 
 # Cerraduras
 
-![cerraduras](https://i.ibb.co/Cz8R4JH/mm.png)
+![cerraduras](https://i.ibb.co/nPw8gQy/electroimanes-12v-final.png)
 
 En el Bike-Park se encuentran dos cerraduras que tienen un pistón, cada uno se alimenta a 12V para conseguir este voltaje se ha integrado en el cuadro eléctrico una fuente de alimentación de 12V y lo que se a conseguido a sido conectarlos a Arduino mediante unos transistores BC337 para poder controlarlos ya que Arduino tiene un voltaje de salida máximo de 5V y los electroimanes se alimentan a 12V. Para que se excite los pistones, el sensor de tarjetas tiene que detectar que el usuario esta registrado en el sistema para poder entrar al Bike-Park.
 
