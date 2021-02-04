@@ -63,9 +63,10 @@ También lo que hace el sensor RFID  es subir la información del usuario a un E
 
 # EXCEL
 
-![EXEL IMFO](https://i.ibb.co/X29HnxB/pl.png)
+![EXEL IMFO](https://i.ibb.co/th63Xj1/graficas.png)
 
-Se a creado un EXCEL para que se pueda controlar dentro de la empresa quien utiliza y quien no las bicicletas al final de cada mes, con el fin de que al usuario que se le ha dado una tarjeta lo utilice y si no lo utiliza darle de baja y darle la tarjeta a otro usuario en la empresa que quiera utilizar las bicicletas.
+Se a creado una tabla EXCEL donde aparece todos los usuarios que an pasado la tarjeta por el sensor RFID registrando su información. Esto se a echo para que se lleve un control de quien utiliza y quien no las bicicletas al final de cada mes, en caso de no utilizar dar de baja en el Bike-Park y poder registrar a nuevos usuarios en la empresa que quiera utilizar las bicicletas.
+A parte de registrar la información de los usuarios en la tabla Excel, también se a creado una gráfica donde se visualiza que dias utlizan más los usuarios el Bike-Park, si utilizan cada vez más las bicicletas o menos. 
  
  
 # Pantalla LCD
