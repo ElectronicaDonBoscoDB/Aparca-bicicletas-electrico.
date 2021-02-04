@@ -8,7 +8,7 @@ El aparcamiento está cubierto por una estructura metálica semicircular y esta 
 
 
 
-El aparcamiento tiene un cuadro electrico, en su interior tiene una fuente de alimentación de 12V, magnetotermicos, diferencial y Pias para proteguer los circuitos electricos. En su interior también esta  Arduino Mega, es el contolador principal ya que gracias a Arduino se a podido programar la pantalla LCD,un sensor RFID y un Buzzer, Además hay una placa de circuito integrado que comunica todo los componentes electrónicos en un mismo circuito.
+El aparcamiento tiene un cuadro electrico, en su interior se encuentra una fuente de alimentación de 12V, magnetotermicos, diferencial y Pias para proteguer los circuitos electricos. En su interior también esta  Arduino Mega, es el contolador principal ya que gracias a Arduino se a podido programar la pantalla LCD,un sensor RFID y un Buzzer, Además hay una placa de circuito integrado que comunica todo los componentes electrónicos en un mismo circuito.
 
 
 
