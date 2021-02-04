@@ -4,7 +4,7 @@
 Es un proyecto innovador en el que se convinan un  aparcamiento de bicicletas común y la electrónica, creando un aparcamiento de bicicletas electrónico. 
 
 
-El aparcamiento esta cubierto por una estructura metálica semicircular y esta adaptada para  bicicletas electricas con  enchufes para que se puedan cargar en caso de que les falte bateria, con luces leds para que tengan una buena visualización y con dos electroimanes(cerraduras) que se encuentran en las puertas.
+El aparcamiento está cubierto por una estructura metálica semicircular y esta adaptada para  bicicletas electricas con  enchufes para que se puedan cargar en caso de que les falte bateria, con luces leds para que tengan una buena visualización y con dos electroimanes(cerraduras) que se encuentran en las puertas.
 
 
 
